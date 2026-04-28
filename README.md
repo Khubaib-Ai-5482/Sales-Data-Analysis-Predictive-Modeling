@@ -1,132 +1,42 @@
-# Sales Data Analysis & Predictive Modeling
+# Business Sales Analysis & Product Clustering Project
 
-## Project Overview
-This project presents a complete sales data analysis and predictive modeling workflow using SQL, Excel, Power BI, and Python.
+## Problem Statement
+- Business sales data lacked structured insights for revenue, profit, and cost performance
+- No clear identification of top-performing product categories
+- Decision-making was limited due to absence of customer/product segmentation
+- Historical sales trends were not effectively utilized for strategic planning
 
-The objective of this project is to analyze historical sales data, identify key business insights, and build a machine learning model to predict future sales performance.
+## Solution Approach
+- Cleaned, transformed, and queried raw sales data using SQL
+- Built dynamic dashboards in Power BI for KPI monitoring and business visualization
+- Performed Exploratory Data Analysis (EDA) using Python
+- Applied Unsupervised Machine Learning (K-Means Clustering) to segment business/product patterns
+- Generated strategic recommendations based on performance clusters
 
-The analysis focuses on revenue trends, profit distribution, product performance, and category-level contributions to support data-driven decision making.
-
----
-
-## Tools & Technologies
-
-- SQL → Data extraction and querying
-- Excel → Data cleaning and preprocessing
-- Power BI → Data visualization and dashboards
-- Python → Data analysis and machine learning
-
-Python Libraries Used:
+## Tools & Technologies Used
+- Python
+- SQL
+- Power BI
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
 - Seaborn
+- Scikit-learn
+- K-Means Clustering
+- Jupyter Notebook
 
----
+## Key Features
+- Sales trend analysis (2011–2015)
+- Revenue, cost, and profit performance tracking
+- Product category profitability analysis
+- Peak year performance detection
+- Business segmentation through clustering
+- Strategic growth recommendations
 
-## Dataset Information
-
-The dataset contains the following features:
-
-- Year
-- Product Category
-- Product Name
-- Quantity
-- Revenue
-- Cost
-- Profit
-
-Project Statistics:
-
-- Total Items Sold: 1.3 Million
-- Total Revenue: 85M
-- Total Cost: 53M
-- Total Profit: 32M
-
-Peak Performance Year:
-2015 → 290K Quantity | 20M Revenue | 8M Profit
-
----
-
-## Data Cleaning
-
-Data cleaning was performed using SQL and Excel:
-
-- Removed duplicate records
-- Handled missing values
-- Standardized column formats
-- Filtered inconsistent entries
-
-After cleaning, the dataset was prepared for analysis and visualization.
-
----
-
-## Exploratory Data Analysis
-
-Data analysis was performed using Excel and Power BI.
-
-Main analysis included:
-
-- Yearly revenue and profit trends
-- Category-wise sales contribution
-- Product performance comparison
-- Quantity vs profit relationship
-
-Category Insights:
-
-Bikes
-- 62M Revenue (73%)
-- 21M Profit (66%)
-
-Accessories
-- 15M Revenue
-- Highest sales volume (1M units)
-
-Clothing
-- 8.3M Revenue
-- Moderate profit margins
-
----
-
-## Machine Learning Model
-
-A predictive model was built using Python to forecast future revenue trends.
-
-Algorithms used:
-
-- Linear Regression
-- Random Forest Regression
-
-The model was trained on historical sales data to predict future performance and identify high-performing products.
-
----
-
-## Power BI Dashboard
-
-The Power BI dashboard includes:
-
-- Revenue trends over time
-- Profit distribution
-- Category-wise performance
-- Top-performing products
-- Interactive business insights
-
----
-
----
-
-## Key Outcomes
-
-- Identified top-performing product categories
-- Discovered profit-driving segments
-- Built a predictive model for revenue forecasting
-- Created an interactive business intelligence dashboard
-
----
-
-## Author
-
-Khubaib
-
-Aspiring AI Engineer | Data Science & Machine Learning Enthusiast
+## Project Output
+- Identified Bikes as the primary profit-driving category
+- Discovered Accessories as high-volume, high-margin products
+- Revealed 2015 as the peak business year
+- Generated actionable business growth strategies
+- Improved business intelligence through advanced analytics
+- Enhanced decision-making with data-driven clustering insights
