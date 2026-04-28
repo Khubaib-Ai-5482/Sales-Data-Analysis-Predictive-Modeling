@@ -1,17 +1,17 @@
-# Business Sales Analysis & Product Clustering Project
+# Business Sales Analysis & Unsupervised Product Clustering
 
 ## Problem Statement
-- Business sales data lacked structured insights for revenue, profit, and cost performance
-- No clear identification of top-performing product categories
-- Decision-making was limited due to absence of customer/product segmentation
-- Historical sales trends were not effectively utilized for strategic planning
+- Business sales data lacked structured insights into revenue, profit, and product performance
+- No clear understanding of top-performing categories or growth opportunities
+- Decision-making was limited due to absence of product segmentation
+- Historical sales trends were not fully utilized for strategic business planning
 
-## Solution Approach
-- Cleaned, transformed, and queried raw sales data using SQL
-- Built dynamic dashboards in Power BI for KPI monitoring and business visualization
-- Performed Exploratory Data Analysis (EDA) using Python
-- Applied Unsupervised Machine Learning (K-Means Clustering) to segment business/product patterns
-- Generated strategic recommendations based on performance clusters
+## Solution
+- Cleaned, transformed, and analyzed raw sales data using SQL
+- Built interactive Power BI dashboards to track KPIs, revenue, profit, and yearly performance
+- Conducted data analysis using Python to identify sales patterns and profitability trends
+- Applied K-Means Clustering (Unsupervised Learning) to segment products based on performance metrics
+- Generated actionable business insights for strategic growth and profitability improvement
 
 ## Tools & Technologies Used
 - Python
@@ -25,18 +25,11 @@
 - K-Means Clustering
 - Jupyter Notebook
 
-## Key Features
-- Sales trend analysis (2011–2015)
-- Revenue, cost, and profit performance tracking
-- Product category profitability analysis
-- Peak year performance detection
-- Business segmentation through clustering
-- Strategic growth recommendations
-
-## Project Output
-- Identified Bikes as the primary profit-driving category
-- Discovered Accessories as high-volume, high-margin products
-- Revealed 2015 as the peak business year
-- Generated actionable business growth strategies
-- Improved business intelligence through advanced analytics
-- Enhanced decision-making with data-driven clustering insights
+## Key Results
+- Analyzed 1.3M+ sales records
+- Identified $85M revenue, $53M cost, and $32M profit
+- Discovered Bikes as the highest profit-generating category
+- Found Accessories as high-volume, profitable products
+- Identified 2015 as peak business year
+- Created product clusters for better strategic planning
+- Delivered data-driven recommendations to improve business performance
